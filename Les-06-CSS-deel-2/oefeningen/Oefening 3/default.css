@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+aside {
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  main {
+    float: left;
+    width: 70%;
+    padding: 15px;
+  }
+  @media only screen and (max-width: 600px) {
+    aside {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+  }
