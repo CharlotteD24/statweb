@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  aside {
+    float: left;
+    width: 40%;
+    padding: 15px;
+  }
+  main {
+    float: left;
+    width: 60%;
+    padding: 15px;
+  }
+  .column {
+    float: left;
+    width: 25%;
+    padding: 15px;
+  }
+  .row:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  @media only screen and (max-width: 500px) {
+    aside {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    .column{
+        width: 100%;
+    }
+  }
